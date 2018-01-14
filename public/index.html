@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Nightlife app</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+		<link href="/public/css/main.css" rel="stylesheet" type="text/css">
+	</head>
+
+	<header>
+		
+	</header>
+
+	<body>
+		<div class="container">
+			<div class="">
+                <div class="input-group mb-3">
+                      <input type="text" id="search" class="form-control" placeholder="Where are you?" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                      <div class="input-group-append">
+                        <button id="s-but" class="btn btn-outline-secondary" type="button">Search</button>
+                      </div>
+                    </div>
+            </div>
+
+            <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6" id="event-div"></div>
+            <div class="col-md-3"></div>
+			</div>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="controllers/template.client.js"></script>
+		<script type="text/javascript" src="controllers/app.js"></script>
+	</body>
+
+</html>
+
+
+
